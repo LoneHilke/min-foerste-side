@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CV – Lone Martinussen Hilke</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#eef2f5;--panel:#dfe8ee;--ink:#172b3a;--muted:#4b6070;--accent:#1f6f78;--bead:#a23b72;--line:#b9c9d4;
+ --serif:"Young Serif",Georgia,serif;--sans:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101c26;--panel:#182a38;--ink:#e6eef3;--muted:#9db1bf;--accent:#5fc1c9;--bead:#e27bb0;--line:#2c4457}}
+:root[data-theme="dark"]{--bg:#101c26;--panel:#182a38;--ink:#e6eef3;--muted:#9db1bf;--accent:#5fc1c9;--bead:#e27bb0;--line:#2c4457}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 var(--sans)}
+a{color:var(--accent)}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.nav{max-width:68rem;margin:0 auto;padding:1rem 1.5rem 0;display:flex;flex-wrap:wrap;gap:.4rem 1.5rem}
+.nav a{color:var(--ink);text-decoration:none;font-weight:600;padding:.25rem 0;border-bottom:3px solid transparent}
+.nav a:hover{border-color:var(--line)}
+.nav a[aria-current="page"]{border-color:var(--accent)}
+.page{max-width:68rem;margin:0 auto;display:grid;grid-template-columns:19rem 1fr;gap:3rem;padding:2.5rem 1.5rem}
+aside{background:var(--panel);padding:2rem 1.5rem;align-self:start;position:sticky;top:1.5rem;border-radius:.25rem}
+h1{font:400 2.1rem/1.15 var(--serif);margin:0 0 1.5rem}
+h2{font:400 1.5rem/1.2 var(--serif);margin:0 0 1rem;color:var(--accent)}
+aside h2{font-size:1.15rem;margin-top:1.75rem}
+address{font-style:normal}
+address p,aside p{margin:.15rem 0}
+.lang{margin:.9rem 0}
+.lang b{display:block;font-weight:600}
+.lang small{color:var(--muted)}
+.beads{display:flex;gap:.3rem;margin-top:.35rem}
+.beads i{width:.8rem;height:.8rem;border-radius:50%;border:2px solid var(--bead)}
+.beads i.f{background:var(--bead)}
+main section{margin-bottom:2.5rem}
+.tl{margin:0;padding:0;list-style:none;border-left:2px solid var(--line)}
+.tl li{display:grid;grid-template-columns:8rem 1fr;gap:1rem;padding:0 0 .9rem 1.1rem;position:relative}
+.tl li::before{content:"";position:absolute;left:-.45rem;top:.45rem;width:.7rem;height:.7rem;border-radius:50%;background:var(--accent)}
+.tl time{color:var(--muted);font-weight:600}
+ul.plain{margin:0 0 1rem;padding-left:1.2rem}
+ul.plain li{margin:.2rem 0}
+h3{font:600 1.05rem/1.3 var(--sans);margin:1.25rem 0 .4rem}
+.tags{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;margin:0;padding:0}
+.tags li{border:1.5px solid var(--accent);border-radius:2rem;padding:.15rem .8rem;font-size:.95rem}
+.note{color:var(--muted)}
+@media (max-width:52rem){
+ .page{grid-template-columns:1fr;gap:1.5rem;padding:1.25rem 1rem}
+ aside{position:static}
+ .tl li{grid-template-columns:1fr;gap:0}
+}
+@media print{
+ .nav{display:none}
+ body{background:#fff;color:#000}
+ .page{display:block;padding:0}
+ aside{position:static;background:none;padding:0 0 1rem}
+ a{color:#000}
+}
+</style>
+</head>
+<body>
+<nav class="nav" aria-label="Hovedmenu">
+ <a href="index.html" aria-current="page">CV</a>
+ <a href="firma.html">Mit firma</a>
+ <a href="proever.html">Prøvesider</a>
+ <a href="kunder.html">Jeg søger kunder</a>
+</nav>
+<div class="page">
+<aside>
+ <h1>Lone Martinussen Hilke</h1>
+ <address>
+  <p>Troldkær 6</p>
+  <p>6200 Aabenraa</p>
+  <p>Tlf. <a href="tel:+4521463836">21 46 38 36</a></p>
+  <p>Født 02.01.1972</p>
+ </address>
+
+ <h2>Sprog</h2>
+ <p class="note">Skala fra 1 til 10, hvor 10 er bedst.</p>
+ <div class="lang"><b>Dansk</b><small>læse, skrive, mundtligt</small></div>
+ <div class="lang"><b>Engelsk</b><small>læse 7, mundtligt 6</small>
+  <div class="beads" role="img" aria-label="Engelsk: læse 7 af 10"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div></div>
+ <div class="lang"><b>Tysk</b><small>læse 6, mundtligt 7</small>
+  <div class="beads" role="img" aria-label="Tysk: mundtligt 7 af 10"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i><i></i></div></div>
+ <div class="lang"><b>Hollandsk</b><small>læse 4, mundtligt 4</small>
+  <div class="beads" role="img" aria-label="Hollandsk: 4 af 10"><i class="f"></i><i class="f"></i><i class="f"></i><i class="f"></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+
+ <h2>Kørekort</h2>
+ <p>Kategori B</p>
+
+ <h2>Referencer</h2>
+ <p>Jesper Gravlev Qvist<br><a href="tel:+4529923101">29 92 31 01</a></p>
+ <p>Jonas Moisen<br><a href="tel:+4529823811">29 82 38 11</a></p>
+ <p class="note">Andet kan fremsendes, hvis det er relevant.</p>
+</aside>
+
+<main>
+ <section>
+  <h2>Ansættelser</h2>
+  <ul class="tl">
+   <li><time>2008 – nu</time><span>Pædagogisk assistent, Kløverskolen Sønderborg</span></li>
+   <li><time>2005 – 2007</time><span>Vikar og job med løntilskud ved Tandsbjergskolen i Sønderborg (Kløverskolen)</span></li>
+   <li><time>2004 – 2005</time><span>Rengøringsvikar, Krifa Aabenraa</span></li>
+   <li><time>2000 – 2004</time><span>Dagplejer, Aabenraa Kommune</span></li>
+   <li><time>1991 – 1992</time><span>Au pair i Holland</span></li>
+   <li><time>1990 – 1991</time><span>Au pair i Norge</span></li>
+  </ul>
+ </section>
+
+ <section>
+  <h2>Skolegang</h2>
+  <ul class="tl">
+   <li><time>1998 – 1999</time><span>PGU (pædagogisk assistent), SOSU-skolen i Aabenraa</span></li>
+   <li><time>1994 – 1997</time><span>Seminariet i Aabenraa</span></li>
+   <li><time>1989 – 1990</time><span>EFG handel og kontor, Købmandsskolen i Aabenraa</span></li>
+  </ul>
+ </section>
+
+ <section>
+  <h2>Erfaring inden for IT</h2>
+  <ul class="tags">
+   <li>Python</li><li>C# (lidt)</li><li>Microsoft Office 365</li><li>Power Apps (lærred)</li>
+   <li>PowerPoint</li><li>SharePoint</li><li>Stream</li><li>Forms</li><li>Sway</li><li>OneNote</li><li>Lists</li>
+  </ul>
+  <h3>Power Apps</h3>
+  <ul class="plain">
+   <li>Program til undervisning på indskolingsniveau</li>
+   <li>Udregning af timer til arbejdsplan</li>
+   <li>Support til kolleger</li>
+  </ul>
+  <h3>Support består af</h3>
+  <ul class="plain">
+   <li>Hjælp til, hvordan programmer virker</li>
+   <li>Hjælp til at logge på programmer</li>
+   <li>Nye adgangskoder til børn og voksne</li>
+   <li>Tilslutning af pc</li>
+   <li>Udfyldning af helpdesk</li>
+   <li>Identificering af problemet og om nødvendigt skaffe kabler eller andet, der kan hjælpe</li>
+   <li>PowerPoint-vejledninger til Teams, Aula-galleri og Prowise Presenter på et niveau, så alle kan følge med</li>
+   <li>Oplæg for personalegruppen om Aula-galleri</li>
+  </ul>
+  <h3>Support foregår</h3>
+  <ul class="plain">
+   <li>Via Teams, nogle gange med skærmdeling</li>
+   <li>Over telefon</li>
+   <li>Ansigt til ansigt</li>
+  </ul>
+ </section>
+
+ <section>
+  <h2>Kurser inden for IT</h2>
+  <ul class="tl">
+   <li><time>24.09.2026</time><span>Gratis version af Microsoft Copilot som daglig AI-assistent (SOAK A/S)</span></li>
+   <li><time>09.–10.09.2026</time><span>Online kursus i Copilot</span></li>
+   <li><time>Juni 2026</time><span>ISO 9001:2015 – Quality Management System (QMS), online kursus hos Alison</span></li>
+   <li><time>16.–19.06.2026</time><span>IT til alle, online kursus hos Edutasia</span></li>
+   <li><time>Maj 2025</time><span>Kursus i C# (igangværende)</span></li>
+   <li><time>2022 og 2025</time><span>Kursus i GDPR</span></li>
+   <li><time>12.11.–07.12.2024</time><span>Gennemførte online kurser inden for M365</span></li>
+   <li><time>28.09.2023</time><span>HTML-kursus hos WildLearner</span></li>
+   <li><time>20.05.2023</time><span>Git-kursus hos WildLearner</span></li>
+   <li><time>14.04.2023</time><span>NumPy-kursus hos WildLearner</span></li>
+   <li><time>13.11.2022</time><span>Gennemført MissionEncodeable</span></li>
+   <li><time>06.08.2021</time><span>Gennemført Python Core hos Sololearn</span></li>
+  </ul>
+ </section>
+
+ <section>
+  <h2>Interesser</h2>
+  <ul class="plain">
+   <li>IT, kodning og at lære nye programmer – <a href="https://llmh.pythonanywhere.com/">se mine Python-projekter</a></li>
+   <li>Håndarbejde: knipling, hækling, perler m.m.</li>
+   <li>Gåture</li>
+   <li>Svømning</li>
+   <li>Ture på vandet i båd og kajak</li>
+  </ul>
+ </section>
+
+ <section>
+  <h2>Frivilligt arbejde</h2>
+  <ul class="plain">
+   <li>Sønderjyske Damehåndbold: opstiller til kamp</li>
+   <li>Sydbank Arena Aabenraa: arbejder i boden m.m.</li>
+  </ul>
+ </section>
+</main>
+</div>
+</body>
+</html>
